@@ -9,10 +9,17 @@
 </head>
 <body>
     <div>
-        <button id="connectButton">Connect via Serial Port</button>
-        <button id="disconnectButton">Disconnect</button>
+        <button id="connectSensorButton">Connect Sensor via Serial Port</button>
+        <button id="connectPowerButton">Connect Power via Serial Port</button>
+        <button id="disconnectSensorButton">Disconnect with Sensor</button>
+        <button id="disconnectPowerButton">Disconnect with Power</button>
     </div>
     <div id="target"></div>
+    <br/>
+    <div>
+        <input id="writeMessage" placeholder="write data to serial port"/>
+        <button id="writeData">Write to Serial Port</button>
+    </div>
 </body>
 <script src='app.js'></script>
 </html>
